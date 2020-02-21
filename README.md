@@ -26,8 +26,8 @@ To simulate the experiment, run `EyeTrackingSearch.m`.
 4. Changed the default background color to black. This sets the background color during tracker setup, and mitigated some calibration issues we experienced. Black is the background color during the experiment, so it is possible that the difference in background color affected the tracking accuracy. This may not be an issue for you, but if it is, feel free to follow these instructions:
 
     * Find the location of the `EyelinkInitDefaults.m` file.<br/>
-    * Found within the Psychtoolbox folder, for instance:<br/>
-    (C:\toolbox\Psychtoolbox\PsychHardware\EyelinkToolbox\EyelinkBasic)
+      Found within the Psychtoolbox folder, for instance:<br/>
+      (C:\toolbox\Psychtoolbox\PsychHardware\EyelinkToolbox\EyelinkBasic)
 
     * Changed Line 60 to: <br/>
     `el.backgroundcolour = BlackIndex(el.window);`
