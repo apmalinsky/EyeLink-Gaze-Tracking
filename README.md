@@ -21,4 +21,4 @@ To simulate the experiment, run `EyeTrackingSearch.m`.
     `if evtype == el.ENDFIX  % if the subject finished a fixation` <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`...`                 
 
-3. Fixations are saved to a table and stored in the tables/ folder.
+3. Fixations are saved to a table and stored in the `tables/` folder.
