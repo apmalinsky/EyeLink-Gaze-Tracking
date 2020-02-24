@@ -1,6 +1,6 @@
 % Author: Andy Malinsky
 
-function binocularTest
+function BinocularTest
 
 %Program using binocular tracking
 %Allows switching tracked eye for gaze dependent position
