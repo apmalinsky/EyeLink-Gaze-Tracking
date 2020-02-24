@@ -34,7 +34,7 @@ To simulate the experiment, run `EyeTrackingSearch.m`.
 
     * Save the file.
 
-Another experimental test can be found in the `BinocularTest.m` file. Also adapted from the example program, the following code snippet switches the eye being tracked. This test relies on the use of EyeLink's Binocular configuration. For additional help, you can refer to the EyeLink 1000 [User Manual](http://sr-research.jp/support/EyeLink%201000%20User%20Manual%201.5.0.pdf) provided by SR Research.
+Another experimental test can be found in the `BinocularTest.m` file. Also adapted from the example program, the following code snippet switches the eye being tracked. The user closes one eye to start tracking the other. This test relies on the use of EyeLink's Binocular configuration. For additional help, you can refer to the EyeLink 1000 [User Manual](http://sr-research.jp/support/EyeLink%201000%20User%20Manual%201.5.0.pdf) provided by SR Research.
 
     switch eye_used
         case el.LEFT_EYE 
