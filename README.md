@@ -33,3 +33,14 @@ To simulate the experiment, run `EyeTrackingSearch.m`.
     `el.backgroundcolour = BlackIndex(el.window);`
 
     * Save the file.
+
+Another experimental test can be found in the `BinocularTest.m` file. Also adapted from the example program, the following code snippet switches the eye being tracked. This test relies on the use of EyeLink's Binocular configuration. For additional help, you can refer to the EyeLink 1000 [User Manual](http://sr-research.jp/support/EyeLink%201000%20User%20Manual%201.5.0.pdf) provided by SR Research.
+
+    switch eye_used
+        case el.LEFT_EYE 
+            eye_used = el.RIGHT_EYE;
+            rightEye; % call the rightEye function
+        case el.RIGHT_EYE
+            eye_used = el.LEFT_EYE;
+            leftEye; % call the leftEye function
+    end
